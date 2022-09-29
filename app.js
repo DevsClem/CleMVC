@@ -6,7 +6,6 @@ const path = require('path');
 const flash = require('connect-flash');
 const csurf = require('csurf');
 
-/* My Modules*/
 const app = Express();
 const routes = require('./routes');
 const Config = require('./config/config');
@@ -15,7 +14,6 @@ const session_settings = Config.get_session_settings();
 const Profiler = require('./libraries/profiler');
 
 app.use(session(session_settings));
-
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(Express.static(path.join(__dirname, './assets')));
 app.use(flash());
