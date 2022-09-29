@@ -31,7 +31,6 @@ Author: Clement Narciso
   }
 ```
 
-
 ## How to run:
 1. Setup package.json:
 ``` json
@@ -65,13 +64,19 @@ Author: Clement Narciso
 }
 ``` 
 
-2. Open up Ubuntu(WSL) CLI and type this in terminal: 
+2. Type this command in the command line to install dependencies.
+``` 
+npm install
+```
+
+3. Open up Ubuntu(WSL) CLI and type this in terminal to run redis server: 
 ``` 
 redis-server
 ```
 
-3. Type this in terminal: 
+4. Type this command in terminal to run the server: 
 ``` 
 npm run develop
 ```
+
 There you go, it should be up and running by now.
