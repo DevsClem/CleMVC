@@ -64,7 +64,7 @@ Author: Clement Narciso
 }
 ``` 
 
-2. Type this command in the command line to install dependencies.
+2. Type and run this command in the command line to install dependencies.
 ``` 
 npm install
 ```
