@@ -79,4 +79,4 @@ redis-server
 npm run develop
 ```
 
-There you go, it should be up and running by now.
+There you go, the app should be up and running by now.
